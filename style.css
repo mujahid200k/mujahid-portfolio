@@ -681,3 +681,30 @@
         font-size: 0.9rem;
     }
 }
+/* NAV FIX */
+.nav-right-cluster {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-contact-me {
+    white-space: nowrap;
+}
+
+.nav-contact-mobile {
+    display: none;
+}
+
+/* Khub choto phone e "Contact me" button menu er bhitor jabe */
+@media (max-width: 420px) {
+    .btn-contact-me {
+        display: none;
+    }
+
+    .nav-mid .nav-contact-mobile {
+        display: block;
+        color: #0d6efd;
+        font-weight: 600;
+    }
+}
