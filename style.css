@@ -380,8 +380,10 @@
 /* PROJECTS SECTION */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .project-card {
@@ -596,7 +598,10 @@
         grid-template-columns: 1fr;
     }
     
-    .services-grid, 
+       .services-grid {
+        grid-template-columns: 1fr;
+    }
+
     .projects-grid {
         grid-template-columns: 1fr 1fr;
     }
